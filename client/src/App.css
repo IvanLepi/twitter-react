@@ -1,0 +1,27 @@
+main {
+  margin-bottom: 8px;
+}
+
+.title {
+  text-align: center;
+}
+
+.tweet-form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.tweets {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tweets > div {
+  background: hsl(0, 0%, 95%);
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.tweets > div:not(:last-child) {
+  margin-bottom: 8px;
+}
